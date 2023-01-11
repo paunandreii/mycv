@@ -22,15 +22,15 @@
         </div>
         <div id="header-info">
           <h1>Paun Andrei</h1>
-          <h2>Student @ Fast Track It</h2>
+          <h2>Student @ <span class="green"> Fast Track It</span></h2>
         </div>
       </div>
 
       <ul id="top-menu-bar">
-        <li><a href="index.html" id="active">Home</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="languages.html">Languages</a></li>
-        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#" onclick="displayHome()">Home</a></li>
+        <li><a href="#" onclick="displaySkills()">Skills</a></li>
+        <li><a href="#" onclick="displayLanguages()">Languages</a></li>
+        <li><a href="#" onclick="displayProjects()">Projects</a></li>
       </ul>
     </header>
 
@@ -43,7 +43,6 @@
               <div class="half">
                 <div class="user-email">
                   <div class="item">
-                    <label for="subscriber">Name</label>
                     <input
                       type="text"
                       name="name"
@@ -52,12 +51,11 @@
                     />
                   </div>
                   <div class="item">
-                    <label for="email">Email</label>
                     <input
                       type="text"
                       name="name"
                       id="email"
-                      placeholder="Email"
+                      placeholder="E-mail"
                     />
                   </div>
                 </div>
@@ -76,7 +74,236 @@
         </section>
       </div>
       <div id="main">
-        <div id="home"></div>
+        <!-- Home -->
+
+        <div id="home">
+          <div class="about">
+            <div class="profile">
+              <div class="image-box">
+                <img
+                  src="https://wise-guru.github.io/portfolio/static/media/hackerman.76b66e7f6418c3b38d9f.jpg"
+                  alt=""
+                />
+                <div></div>
+              </div>
+            </div>
+            <div class="text">
+              <h2>About Me</h2>
+              <p>Hi! I'm Andrew, a web developer.</p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                molestias quas quos aliquam necessitatibus adipisci laudantium
+                earum tempore corrupti quod odit maiores, sed animi, doloribus
+                accusamus possimus reiciendis aut assumenda.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                animi ab tempore neque! Numquam sunt, laboriosam nemo iusto
+                deleniti corrupti nostrum voluptatibus ad natus, aliquid veniam
+                a recusandae error incidunt inventore cumque porro distinctio
+                minus perspiciatis praesentium voluptate exercitationem maxime
+                quos unde. Delectus assumenda debitis fugit alias eveniet
+                tenetur id.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- End of Home -->
+
+        <!-- Skills -->
+
+        <div id="skills">
+          <div class="header skill-head">
+            <h2>My <span>Skills</span></h2>
+          </div>
+
+          <div class="skill-main">
+            <div class="skill-bar">
+              <div class="info">
+                <p>HTML</p>
+                <p class="percent">90%</p>
+              </div>
+
+              <div class="bar">
+                <span class="html"></span>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="info">
+                <p>CSS</p>
+                <p>85%</p>
+              </div>
+
+              <div class="bar">
+                <span class="css"></span>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="info">
+                <p>Java Script</p>
+                <p>70%</p>
+              </div>
+
+              <div class="bar">
+                <span class="js"></span>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="info">
+                <p>React</p>
+                <p>75%</p>
+              </div>
+
+              <div class="bar">
+                <span class="react"></span>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="info">
+                <p>Node JS</p>
+                <p>40%</p>
+              </div>
+
+              <div class="bar">
+                <span class="node"></span>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="info">
+                <p>Express Js</p>
+                <p>65%</p>
+              </div>
+
+              <div class="bar">
+                <span class="express"></span>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="info">
+                <p>Mongo DB</p>
+                <p>35%</p>
+              </div>
+
+              <div class="bar">
+                <span class="mongo"></span>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="info">
+                <p>Angular</p>
+                <p>20%</p>
+              </div>
+
+              <div class="bar">
+                <span class="angular"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-container">
+            <div class="column col-one">
+              <div class="skill-box">
+                <img src="/img/icons8-html-5.svg" alt="" srcset="" />
+              </div>
+              <div class="skill-box">
+                <img
+                  width="35px"
+                  src="/img/5774922751551942136.svg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="skill-box">
+                <img width="35px" src="/img/react.svg" alt="" srcset="" />
+              </div>
+            </div>
+            <div class="column col-two">
+              <div class="skill-box">
+                <img width="35px" src="/img/css.svg" alt="" srcset="" />
+              </div>
+              <div class="skill-box">
+                <img width="35px" src="/img/github.svg" alt="" srcset="" />
+              </div>
+              <div class="skill-box">
+                <img width="50px" src="/img/node.svg" alt="" srcset="" />
+              </div>
+            </div>
+            <div class="column col-three">
+              <div class="skill-box">
+                <img
+                  width="35px"
+                  src="/img/5774922751551942136.svg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="skill-box">
+                <img
+                  width="35px"
+                  src="/img/5774922751551942136.svg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="skill-box">
+                <img width="35px" src="/img/react.svg" alt="" srcset="" />
+              </div>
+            </div>
+            <div class="column col-four">
+              <div class="skill-box">
+                <img width="35px" src="/img/js.svg" alt="" srcset="" />
+              </div>
+              <div class="skill-box">
+                <img
+                  width="35px"
+                  src="/img/5774922751551942136.svg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="skill-box">
+                <img width="35px" src="/img/react.svg" alt="" srcset="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of Skills -->
+
+        <div id="languages">
+          <h3>Known Languages</h3>
+          <table border="1">
+            <tbody>
+              <tr>
+                <th>Language</th>
+                <th>Level</th>
+              </tr>
+              <tr>
+                <td>Romanian</td>
+                <td>Native or bilingual proficiency</td>
+              </tr>
+
+              <tr>
+                <td>English</td>
+                <td>Native or bilingual proficiency</td>
+              </tr>
+              <tr>
+                <td>Russian</td>
+                <td>Native or bilingual proficiency</td>
+              </tr>
+              <tr>
+                <td>Spanish</td>
+                <td>Native or bilingual proficiency</td>
+              </tr>
+              <tr>
+                <td>Deutsch</td>
+                <td>Native or bilingual proficiency</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div id="projects"></div>
       </div>
     </section>
 
