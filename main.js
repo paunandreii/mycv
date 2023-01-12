@@ -26,4 +26,4 @@ function displayProjects() {
   show("projects");
 }
 
-displaySkills();
+displayHome();
