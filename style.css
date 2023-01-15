@@ -510,6 +510,10 @@ footer a:hover {
     padding: 1rem;
   }
 
+  .profile {
+    width: 320px;
+  }
+
   .skill-bar {
     width: 250px;
     margin: 0 auto;
@@ -518,15 +522,30 @@ footer a:hover {
   .skill-main {
     grid-template-columns: 1fr;
     width: 300px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    background-color: #314253;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   .skills-container {
     padding: 1rem;
-    width: 250px;
+    width: 300px;
+    border-radius: 20px;
     margin: 0 auto;
   }
 
   #languages table {
-    min-width: 200px;
+    min-width: 300px;
+  }
+
+  #side-menu {
+    display: none;
+  }
+
+  .header-container h1 {
+    font-size: 1.5rem;
   }
 } ;
