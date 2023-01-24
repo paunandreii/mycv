@@ -143,11 +143,11 @@ h1 {
 }
 
 .about .profile {
+  max-width: 320px;
   background: #314253;
   border-radius: 8px;
-  padding: 15px;
+  padding: 12px 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  min-height: 100%;
 }
 
 .hobbies-container {
@@ -481,10 +481,14 @@ footer a:hover {
 
 @media screen and (max-width: 600px) {
   #home .about {
-    flex-direction: column;
-    padding: 2rem;
-
+    flex-direction: column-reverse;
     justify-content: center;
+
+    margin: 2rem 0.5rem;
+  }
+
+  .hobbies-container {
+    margin: 12px auto;
   }
 
   #skills {
@@ -492,7 +496,12 @@ footer a:hover {
   }
 
   .profile {
-    width: 320px;
+    padding: 0;
+    width: 100%;
+  }
+
+  .profile .image-box img {
+    width: 100%;
   }
 
   .skill-bar {
@@ -504,7 +513,6 @@ footer a:hover {
     grid-template-columns: 1fr;
     width: 300px;
     margin: 0 auto;
-    margin-bottom: 3rem;
     background-color: #314253;
     padding: 2rem;
     border-radius: 20px;
